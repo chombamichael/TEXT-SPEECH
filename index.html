@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech App with Image Generation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Button to generate image -->
+        <button id="generate-image-btn">Generate Image</button>
+
+        <!-- Canvas where image will be drawn -->
+        <canvas id="canvas" width="300" height="200"></canvas>
+
+        <!-- File input for image upload -->
+        <input type="file" id="image-upload" accept="image/*" />
+
+        <h1>Text to Speech App</h1>
+        <textarea id="text-input" placeholder="Enter text here..." rows="6"></textarea>
+        <button id="speak-btn">Speak</button>
+        <div id="status">Type some text and press "Speak" to hear it.</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
